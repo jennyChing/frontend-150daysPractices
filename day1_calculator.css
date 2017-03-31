@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+element.style {
+    background-color: #ffffff;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    opacity: 0.1;
+    position:absolute;
+}
+
+.gridcontent {
+    
+    width: 25%;
+    margin: 0;
+    height: 100%;
+    float: left;
+    border-right:1px solid #699;
+}
+
+.inputs, .labels, .op-btn {
+  position:relative;
+  background-color: #456;
+  font-family: 'LiHei Pro', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #8bc; 
+  border: 0px;
+  height: 50px;
+  float: left;
+  padding: 0 10px;
+
+  border-radius: 3px;
+  box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+  
+  /* Typography */
+  font-size: 17px;
+  line-height: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.labels{
+  background-color: #689;
+}
+
+div.container {
+
+    background-color: #8bc;
+    margin-top: 200px;;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 288px;
+    padding: 0px; 
+
+    background: linear-gradient(#689, #689);
+    border-radius: 3px;
+    box-shadow: #689, #456;	
+}
+
+
+.op-btn{
+  background-color: #8bc;
+  height: 60px;
+  width: 100%;
+  /*float: right;  */
+  
+  /* Typography */
+  font-size: 17px;
+  line-height: 10px;
+  text-align: center;
+}
+
+html, body, h1 {
+  position:absolute;
+  padding: 0; margin: 20px;
+  overflow: hidden;
+  font-family: 'LiHei Pro', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  color: #eee; width: 100%; height: 100%;
+  min-height: 400px;
+  background-color: #699;
+  text-align: center;
+}
