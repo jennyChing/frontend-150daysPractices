@@ -1,10 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import back from "./images/back.jpg"
+import a from "./images/a.jpg"
+import b from "./images/a.jpg"
+import c from "./images/a.jpg"
+import d from "./images/a.jpg"
+import e from "./images/a.jpg"
+import f from "./images/a.jpg"
+import g from "./images/a.jpg"
+import h from "./images/a.jpg"
 
 function Square(props) {
   return (
-    <img className="card" id={props.name} src="images/back.jpg" onClick={() => props.onClick()}>
+    <img className="card" id={props.name} src={back} onClick={() => props.onClick()}>
     </img>
   )
 }
@@ -46,8 +55,7 @@ class Game extends React.Component {
         squares: Array(16).fill(null),
       }],
       cards: [],
-      images: ['a.jpg', 'b.jpg', 'c.jpg', 'd.jpg', 'e.jpg', 'f.jpg', 
-            'g.jpg', 'h.jpg',],
+      images: [{a}, {b}, {c}, {d}, {e}, {f}, {g}, {h}],
       matched: [],
       showing: [],
       stepNumber: 0,
