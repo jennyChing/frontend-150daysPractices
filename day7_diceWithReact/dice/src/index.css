@@ -7,6 +7,10 @@ body {
 	overflow: scroll;
 }
 
+#hide {
+	display: none;
+}
+
 #main_container {
 	padding-bottom: 34px;
 }
@@ -20,7 +24,7 @@ body {
 				  1px 1px 0 rgba(255,255,255,0.5);	
 }
 
-h2 {
+h1 {
 	font-size: 43px;
 }
 
