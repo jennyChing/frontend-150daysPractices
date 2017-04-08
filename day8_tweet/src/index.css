@@ -1,0 +1,46 @@
+body {
+  	margin: 0;
+  	padding: 0;
+   	font-family: sans-serif;
+	background: #F5F5DC;
+	text-align: center;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	letter-spacing: 2px;
+	color: #1d113b;
+	overflow: scroll;
+}
+
+h1 {
+	width: 800px;
+	padding: 50px 0 50px;
+	margin: 0 auto;
+	font-size: 70px;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.2),
+				  1px 1px 0 rgba(255,255,255,0.5);	
+}
+
+input {
+  font-size: 60px;
+  position:relative;
+  background-color: #456;
+  font-family: 'LiHei Pro', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: #8bc; 
+  border: 0px;
+  height: 50px;
+  padding: 0 10px;
+  margin-top: 200px;
+  border-radius: 3px;
+  box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+  
+  /* Typography */
+  font-size: 40px;
+  line-height: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+
