@@ -127,5 +127,5 @@ class Game extends React.Component {
 
 ReactDOM.render(
   <Game />,
-  document.getElementById('dice_container')
+  document.getElementById('page')
 );
